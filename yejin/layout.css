@@ -1,0 +1,244 @@
+﻿@charset "UTF-8";
+
+#header {
+    height: 90px;
+}
+
+body {
+    font-size: 20px;
+}
+
+#content {
+    width: 100%;
+  
+    padding: 0px 20px;
+    
+}
+h3{margin-bottom: 5%;}
+.aside {
+    
+    float: left;
+    width : 15%;
+}
+
+.aside2 {
+   
+   
+    float: left;
+    width : 20%;
+    box-sizing: border-box;
+
+}
+.leftnav  a {           
+          
+             
+    font-size:20px;  }
+.main {
+    border-left: 1px solid #c8c8c8;
+    float:left;
+    width: 80%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.main2 {
+    background-color: rgb(229, 251, 253);
+}
+
+.map_click
+{
+    width:80%; height:80%;
+    margin:0 auto;
+   
+   
+}
+.map_click_seoul
+{
+    width:80%; height:80%;
+    padding-left: 2%;
+}
+.course_title {
+    margin:20px;
+    text-align: center;
+}
+.course_map {
+    width:650px;
+     height:350px;
+    
+   position:relative;
+   left:15%;
+}
+.main_list {
+    width: 700px;
+    margin: 10% auto;
+}
+#baegak
+{
+    padding-top: 5%;
+    border-left: 0px solid #c20a0a;
+    margin:0 10%;
+    text-align: center;
+}
+.region
+{
+    text-align: center;
+    margin:5% auto;
+}
+.list_start {
+    text-align: center;
+}
+
+.list_detail {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+table.type09 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+  
+  }
+  table.type09 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+  }
+  table.type09 tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+  }
+  table.type09 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+  }
+  .stamp_box{
+    float:left;
+    width: 20%;
+  }
+  .stamp_img{
+    float:left;
+    width: 80%;
+  }
+#footer {  
+   
+    margin-top: 100px;
+}
+
+/*스마트폰*/
+@media screen and (min-width:320px)and (max-width:430px)
+{  
+    #content {
+        width: 100%;
+      padding:0;
+        
+    }
+    .aside2 {
+        padding-left:10%;
+        width : 100%;
+        background-color:  #2d2d2d;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #c8c8c8;
+   
+    }
+    .leftnav  a {           
+          
+        list-style: none;            
+        color: white;              
+        background-color: #2d2d2d;
+        float:left;         
+        font-size:15px;  
+        line-height: 30px;         
+        vertical-align: middle;    
+        text-align: center;        
+}
+    
+    .main {
+        margin-top: 10px;
+       
+        border-left:none;
+        float:left;
+        width: 100%;
+        box-sizing: border-box;
+       
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    .map_click
+{
+    width:90%; height:90%;
+    margin:0 auto;
+    padding-left: 0;
+}
+.map_click_seoul
+{
+    width:100%; height:100%;
+    padding-left: 2%;
+}
+#map_size{
+    width:100%;
+    height: 70%;
+}
+
+.list_start {
+    text-align: center;
+}
+
+.list_detail {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+}
+@media screen and (orientation:landscape)and (max-width:812px)
+{  
+    .list_start {
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .list_detail {
+       
+        display: block;
+        margin-left: 23%;
+        width: 100%;
+        height: auto;
+       
+    }
+}
+
+@media screen and (max-width:1024px)and (min-width:768px)
+{
+   
+    .list_start {
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .list_detail {
+        margin-left:  12%;
+        display: block;
+        width: 100%;
+        height: auto;
+       
+    }
+}
+@media screen and (max-width:1300px)and (min-width:1024px)
+{
+}
