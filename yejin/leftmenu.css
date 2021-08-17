@@ -1,0 +1,89 @@
+﻿@charset "UTF-8";
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+.sideMenu {
+    
+    display: block;
+    overflow: hidden;
+}
+
+.leftnav {
+    overflow: hidden;
+    border: none;
+}
+
+.btn {
+    display: block;
+    padding: 15px 20px;
+    background-color: white;
+    font-size : 26px;
+    color: black;
+    position: relative;
+    font-weight :bolder;
+}
+
+
+.btn2 {
+    display: block;
+    padding: 15px 20px;
+    background-color: white;
+    font-size : 20px;
+    color: black;
+    position: relative;
+    font-weight :bolder;
+}
+.leftnav a:hover{
+    color: forestgreen;
+}
+
+.subMenu {
+    
+    overflow: hidden;
+    transition: max-height 0.7s;
+    max-height: 0;
+}
+
+    .subMenu a {
+        display: block;
+        padding: 15px 20px;
+        color: #222;
+        font-size: 14px;
+        border-bottom: 1px solid #eaeaea;
+        position: relative;
+    }
+
+        .subMenu a:after {
+            content: '';
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .subMenu a:hover {
+            color:forestgreen;
+            transition: all 0.3s;
+            border-bottom: 1px solid #c8c8c8;
+        }
+
+        .subMenu a:last-child {
+            border: none;
+        }
+
+.leftnav:target .subMenu {
+    max-height: none;
+}
+
+/*스마트폰*/
+@media screen and (min-width:320px)and (max-width:430px)
+{  
+ 
+}
+@media screen and (orientation:landscape)and (max-width:812px)
+{  
+}
+
+@media screen and (max-width:1024px)and (min-width:768px)
+{
+}

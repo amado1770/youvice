@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUvice Seoul | 서울시 휴식 & 건강 가이드북</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css">
+</head>
+<body>
+
+<!--Header-->    
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="page_about.html">ABOUT</a></li>
+                <li><a href="page_theme.html">테마별 코스</a></li>
+                <li><a href="page_district.html">지역별 코스</a></li>
+                <li><a href="page_stats.html">통계자료</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>서울시 휴식 & 건강 가이드북</h1>
+    <p>너 YOU를 위한 유용한 서비스입니다... 하하하하하하하하하하 무슨 내용 쓰지<br>
+        휴식과 건강을 찾기 위한 모든 정보</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+</section>
+
+<!--Courses-->
+<section class="courses">
+    <h1>추천 힐링 코스</h1>
+    <p>도심 속 휴식을 즐길 수 있는 곳!! 에디터 추천!!</p>
+
+    <div class="row">
+        <div class="courses-col">
+            <img src="images/library.png">
+            <h3>서울 둘레길 3코스</h3>
+            <p>고덕 - 일자산<br>무슨내용 무슨내용 그냥 추천한다는.. 아ㅏㅏㅏㅏㅏㅎ알겠다고</p>
+        </div>
+        <div class="courses-col">
+            <img src="images/basketball.png">
+            <h3>한양도성길 낙산구간</h3>
+            <p>혜화문 - 흥인지문<br>무슨내용 무슨내용 그냥 추천한다는.. 여기도 추천추천</p>
+        </div>
+        <div class="courses-col">
+            <img src="images/cafeteria.png">
+            <h3>한강/지천길 강남서초한강길</h3>
+            <p>어디서부터 - 어디까지<br>무슨내용 무슨내용 그냥 추천한다는.. 엉어ㅓㅇ엉 어어 추천</p>
+        </div>
+    </div>
+</section>
+
+<!--HotPlace-->
+<section class="place">
+    <h1>서울 Hot Place</h1>
+    <p>관광, 쇼핑, 데이트 코스, 맛집 등등!! 서울의 핫플 추천!!</p>
+
+    <div class="row">
+        <div class="place-col">
+            <img src="images/london.png">
+            <div class="layer">
+                <h3>신사동 가로수길</h3>
+            </div>
+        </div>
+        <div class="place-col">
+            <img src="images/newyork.png">
+            <div class="layer">
+                <h3>경리단길</h3>
+            </div>
+        </div>
+        <div class="place-col">
+            <img src="images/washington.png">
+            <div class="layer">
+                <h3>홍대 패션거리</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>우리는 아님 이 페이지는 어쩌구 저쩌구.우리는 아님 이 페이지는 어쩌구 저쩌구.우리는 아님 이 페이지는 어쩌구 저쩌구.<br>
+        우리는 아님 이 페이지는 어쩌구 저쩌구.우리는 아님 이 페이지는 어쩌구 저쩌구.</p>
+
+    <div class="icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fas fa-university"></i>
+    </div>
+    <p><i class="far fa-copyright"></i> DSD-Korini. All rights reserved</p>
+</section>
+
+<!--JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
